@@ -1,0 +1,108 @@
+/* styles.css */
+@import url('https://fonts.googleapis.com/css2?family=Sedan+SC&display=swap');
+
+:root{
+  --font-h2: font-family: "Sedan SC", serif;
+  
+
+  
+}
+
+body{
+    background: url(../imagens/3d-fantasy-scene\ \(1\).jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+  .tab-container {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 20px;
+      background-color: white;
+      border: 1px solid #B180F3 ;
+      border-radius: 10px;
+      box-shadow: 0 0 10px #B180F3;
+    }
+
+    
+    
+    .tab-nav {
+      display: flex;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      border-bottom: 1px solid #ddd;
+      
+    }
+    
+    .tab-nav li {
+      margin-right: 20px;
+    }
+    
+    .tab-nav a {
+      display: flex;
+      color: #337ab7;
+      font-family:  "Sedan SC", serif;
+       text-decoration: none;
+      transition: color 0.2s ease;
+      
+    }
+
+    .tab-nav li img{
+      
+     width:100%;
+     border-radius: 0.5rem;
+     box-shadow: 0 0 10px #B180F3;
+     
+    }
+
+
+    
+    .tab-nav a:hover {
+      color: #23527c;
+    }
+    
+    .tab-nav a.active {
+      color: #23527c;
+      border-bottom: 2px solid #23527c;
+    }
+    
+    .tab-content {
+      padding: 20px;
+    }
+
+    
+   
+    
+    .tab-pane {
+      display: none;
+    }
+    
+    .tab-pane.active {
+      display: block;
+    }
+table{
+  width: 100%;
+}
+    table a{
+      font-family:  "Sedan SC", serif;
+      text-decoration: none;
+      color: #23527c;
+      
+      
+    }
+
+    table a:hover{
+      text-decoration: underline;
+    }
+
+    .loot{
+      text-align: justify;
+    }
+
+    .link-wiki{
+      color: red;
+      margin-top: 5px;
+      
+    }
+
+    
