@@ -86,6 +86,8 @@ span{
     padding-top: 25vh;
     background: url(../imagens/3d-fantasy-scene.jpg ) no-repeat;
     width: 100%;
+    padding-top: 40vh ;
+    padding-bottom: 160px;
     background-size: cover  ;
     
 }
@@ -157,6 +159,7 @@ span{
 
 .service{
     display: flex;
+    
     flex-direction: row;
     justify-content: space-evenly;
     width: 100%;
@@ -176,6 +179,7 @@ span{
 
 .service-box{
     display: flex;
+    text-align: justify;
     flex-direction: column;
     justify-content: space-between;
     min-height: 25rem;

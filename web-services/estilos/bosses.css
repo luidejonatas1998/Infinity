@@ -110,4 +110,14 @@ table{
       text-align: center;
     }
 
+    .format-footer{
+      color: rgb(21, 163, 219);
+      text-align: center;
+
+    }
+    tbody tr span {
+      color: red;
+    }
+
+
     
