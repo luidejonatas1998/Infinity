@@ -187,6 +187,23 @@ span{
     margin-left: 5px;
 }
 
+.service-box h3 {
+  text-align: center;
+}
+
+.img-box{
+  display: flex;
+justify-content: center;
+align-items: center;
+  
+
+}
+
+.img-box img{
+  width: 40%;
+  margin-bottom: 5%;
+}
+
 
  .service-box:hover{
     border: solid 0.15rem #00eeff;
@@ -210,6 +227,11 @@ span{
     -webkit-line-clamp: 4;
     overflow: hidden;
     text-overflow: ellipsis;
+}
+
+.portifolio h1:hover{
+  color: var(--main-color);
+
 }
 
 .cards{
@@ -271,6 +293,15 @@ span{
     border-radius: 5px; /* 5px rounded corners */
 
   }
+
+  .card h4 a {
+    color: white;
+  }
+
+  .card h4 a:hover{
+    color: #00eeff;
+    text-decoration: underline;
+  }
   
   /* Add rounded corners to the top left and the top right corner of the image */
   img {
@@ -286,11 +317,12 @@ span{
   }
 
   .custom-button {
-    background-color: #15528b7a;
+    border-radius: 2rem;
+    background-color: var(--main-color);
     color: white;
     border: none;
     padding: 5px 32px;
-    width: 186px;
+    width: 95%;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -300,6 +332,27 @@ span{
     margin-top: 20PX;
     font-weight: bolder;
 }
+
+.custom-button:hover {
+    box-shadow: 0 0 0.3rem var(--main-color);
+    background-color: inherit;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.b1{
+  display: flex;
+  justify-content: center;
+  
+}
+.b1 a{
+  text-decoration: none;
+  color: white;
+}
+
+
+
 
 .custom-button:hover{
     text-decoration: underline;
@@ -311,6 +364,7 @@ span{
 }
 
 .btn{
+  text-align: center;
     display: inline-block;
     background-color: #00eeff;
     padding: 0.7rem 1.8rem;
@@ -360,6 +414,11 @@ font-size: 1rem;
 background-color: var(--bg-color-02);
 border-radius: 0.5rem;
 margin: 0.4rem;
+}
+
+.about article{
+  margin: 0 auto;
+  background-color: white;
 }
 
 footer {
