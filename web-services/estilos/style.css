@@ -92,44 +92,135 @@ span{
     
 }
 
+/**************ABOUT**********************/
 
-
-
-.about-img {
-    padding: 0.7rem;
-    border-left: 3px solid gray;
-    border-bottom: 3px solid gray;
-    
-    background-size: cover;
-    width: 100%;
-    height: 20%;
-}
-
-.img-about{
-  display: flex;
-  justify-content: center;
-  border-radius: 50%;
-  background-color: #323946;
-  width: 20%;
-  
-  
- 
-  
-}
-
-.img-about img{
-  width: 30%;
-  
-}
-
-.sb1{
-  display: flex;
-  justify-content: center;
-  border: 1px solid red;
+.about > article{
+  width: 80vw;
+  height: 150vh;
+  background-color: white ;
+  border: 1px solid #B180F3 ;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #B180F3;
   color: black;
-  
+
 
 }
+
+.primary {
+  display: flex;
+  margin: 0 auto;
+}
+
+.about >article .cont1  {
+ 
+  width: 60%;
+  
+}
+
+.about >article .cont2{
+  width: 30%;
+}
+.about >article .cont1 h2{
+  padding: 0.6rem;
+}
+
+.about >article .cont1 p {
+  text-align: justify;
+  padding: 0.6rem;
+}
+
+.card-1{
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    color: var(--main-color);
+    margin: 10px;
+    min-width: 220px;
+    margin-left: 20px;
+    height: 60vh;
+    box-shadow: 0 8px 16px 0 #00eeff;
+   
+   
+}
+.card-1 h2{
+  text-align: center;
+}
+
+.card-1:hover{
+  box-shadow: 0 8px 16px 0 #00eeff;
+    transition: 0.5s;
+    transform: scale(1.1);
+
+}
+
+.img-card-1{
+ 
+  height: 30vh;
+  
+}
+
+.img-card-1 img{
+  height: 40vh;
+  width: 100%;
+  margin-bottom: 250px;
+  
+}
+
+.social-media-1 {
+  display: flex;
+  justify-content: space-evenly; 
+  margin-left: 1.3rem;
+  height: 2.5rem;
+  display: flex;
+  flex-direction: row;
+ 
+  margin-top: 1.5rem;
+  width: 100%;
+  
+  
+}
+
+.social-media-1 a i {
+ color: var(--main-color);
+   width: 80px;
+  font-size: 35px;
+
+}
+#info{
+ padding: 0.9rem;
+ 
+}
+
+#info:hover{
+  text-decoration: underline;
+}
+
+.b2{
+  display: flex;
+  justify-content: center;
+  
+}
+.b2 a{
+  text-decoration: none;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .home-img img , .about-img img {
     width: 100%;
@@ -335,7 +426,9 @@ align-items: center;
   }
 
   #boss{
-   
+   display: flex;
+   width: 100%;
+   border: 1px solid red;
     width: 190px;
     background-size: cover;
     
