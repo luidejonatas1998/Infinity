@@ -428,11 +428,28 @@ align-items: center;
   #boss{
    display: flex;
    width: 100%;
-   border: 1px solid red;
-    width: 190px;
+   
+    width: 220px;
     background-size: cover;
     
     
+  }
+  #boss1{
+    display: flex;
+    justify-content: center;
+    
+    width: 100%;
+   
+    width: 220px;
+    background-size: cover;
+  }
+
+  #boss1 img{
+    
+  }
+
+  #boss img{
+    width: 100%;
   }
 
   .custom-button {
